@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter, HostListener } from '@angular/core';
 
 @Component({
   selector: 'bl-root',
@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'base-library';
+  @Input() test;
+  @Output() onTest = new EventEmitter();
+
+  @HostListener('click', [])
+  onClick() {
+    this.onTest.emit('Test')
+  }
 }
