@@ -1,6 +1,6 @@
 # BaseLibrary
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
+This sample project will be demonstration of wrapper around the material components. Well defined project specific theme components will appear here. These components will have storybook to showcase each component. And jest test cases to make sure while modifying library nothing breaks. 
 
 ## Development server
 
