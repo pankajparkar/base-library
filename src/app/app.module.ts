@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PrimaryButtonComponent } from './primary-button/primary-button.component';
+import { SecondaryButtonComponent } from './secondary-button/secondary-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PrimaryButtonComponent
+    PrimaryButtonComponent,
+    SecondaryButtonComponent
   ],
   imports: [
     BrowserModule,
